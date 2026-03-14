@@ -45,6 +45,11 @@ aside {
     height: auto;
 }
 
+main {
+    width: 150px;
+    height: auto;
+}
+
 p {
     padding: 0;
 }
