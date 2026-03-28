@@ -170,3 +170,22 @@ footer {
 .text-right {
     text-align: left;
 }
+
+.adventure-container {
+    display: flex;
+    justify-content: center;
+    gap: 1px;
+}
+
+.item {
+    text-align: center;
+}
+
+.item img {
+    max-width: 150;
+    height: auto;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+    padding: 10px
+}
