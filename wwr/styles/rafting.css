@@ -36,7 +36,7 @@ body {
 header,
 main,
 footer {
-    width: 840px;
+    width: 1050px;
     margin: 0 auto;
 }
 
@@ -132,7 +132,8 @@ footer {
     border: 1px solid rgba(0, 0, 0, .1);
     padding: 1rem;
     background-color: #eee;
-    color: #000
+    color: #000;
+    max-width: 800
 }
 
 .history-container {
