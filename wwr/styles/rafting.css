@@ -177,6 +177,12 @@ footer {
     gap: 1px;
 }
 
+.employee-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 1px;
+}
+
 .item {
     text-align: center;
 }
@@ -188,4 +194,31 @@ footer {
     display: block;
     margin: 0 auto;
     padding: 10px
+}
+
+.map-container {
+    flex: 1;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+    margin: .2rem;
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
+}
+
+.contact-section {
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.contact-form {
+    flex: 1;
+    display: grid;
+    gap: 10px
 }
