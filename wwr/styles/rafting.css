@@ -198,6 +198,7 @@ footer {
 
 .map-container {
     flex: 1;
+    margin: 0;
 }
 
 .form-item {
@@ -212,20 +213,49 @@ footer {
 
 .contact-section {
     display: flex;
-    gap: 40px;
+    gap: 00px;
     align-items: flex-start;
     padding: 20px;
 }
 
 .contact-form {
     flex: 1;
-    display: grid;
-    gap: 10px
+    display: flex;
+    flex-direction: column;
 }
 
 form {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+    width: 450px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: none;
+    border-radius: 0.5;
+    background-color: white;
+    display: grid;
+}
+
+.contact-header {
+    padding: 160PX 0;
+    text-align: left;
+    font-size: 2.5rem;
+    margin-left: 20rem;
+    color: black;
+    background-color: transparent;
+    opacity: 100;
+}
+
+.contact-info {
+    text-align: center;
+    line-height: 2.5;
+    margin: 20px 0;
+}
+
+.contact-info p {
+    margin: 0;
+    line-height: .5;
+}
+
+button {
+    padding: 1px;
+    margin: 2px;
 }
