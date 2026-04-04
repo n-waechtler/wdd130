@@ -280,19 +280,14 @@ button {
     align-items: start;
 }
 
-.field-label {
-    font-size: 14px;
-    line-height: 1.2;
-    padding-top: 2px;
-}
-
 .radio-stack {
     display: flex;
     flex-direction: column;
     gap: 8px;
 }
 
-.radio-stack label {
+.radio-stack,
+label {
     display: flex;
     align-items: center;
     font-size: 14px;
@@ -300,6 +295,7 @@ button {
     cursor: pointer;
 }
 
-.radio-stack input {
+.radio-stack,
+input {
     margin-top: 0 10px 0 0;
 }
