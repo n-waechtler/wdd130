@@ -186,9 +186,10 @@ footer {
 }
 
 .employee-container {
+    padding: 3rem;
     display: flex;
+    align-items: center;
     justify-content: space-around;
-    gap: 1px;
 }
 
 .item {
@@ -246,7 +247,6 @@ form {
     margin-left: 20rem;
     color: black;
     background-color: transparent;
-    opacity: 50;
 }
 
 .contact-info {
