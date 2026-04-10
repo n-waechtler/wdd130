@@ -336,6 +336,5 @@ figure {
     margin: 10px;
     display: flex;
     flex-direction: column;
-    /* Ensures text stays below the image */
     align-items: center;
 }
