@@ -135,6 +135,14 @@ footer {
     color: #000;
 }
 
+.box2 {
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, .1);
+    padding: 1rem;
+    background-color: #eee;
+    color: #000;
+}
+
 .history-container {
     display: flex;
     flex-direction: column;
@@ -306,4 +314,28 @@ button {
     background-color: #f0f0f0;
     border: 1px solid #999;
     cursor: pointer;
+}
+
+.activities {
+    background-color: rgb(245, 227, 204);
+    padding: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.mission {
+    background-color: rgb(220, 239, 247);
+    padding: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+figure {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    /* Ensures text stays below the image */
+    align-items: center;
 }
