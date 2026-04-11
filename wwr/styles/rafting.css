@@ -329,7 +329,8 @@ button {
     padding: 3rem;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    gap: 15px;
 }
 
 figure {
@@ -337,4 +338,40 @@ figure {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.subscribe {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgb(0 0 0 / 0.1);
+    border-radius: 0.5;
+    background-color: rgb(245, 227, 204);
+    display: grid;
+    gap: 10px;
+    justify-items: center;
+}
+
+.button2 {
+    margin: .5rem;
+    background-color: navy;
+    color: white;
+    border: none;
+    border-radius: .5rem;
+    padding: .5rem;
+    font-size: 1.2rem;
+    width: 150px;
+    height: 45px;
+}
+
+button:hover {
+    background-color: darkgreen;
+}
+
+fieldset {
+    display: grid;
+    gap: .5rem;
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / 0.2);
+    padding: 1rem;
 }
