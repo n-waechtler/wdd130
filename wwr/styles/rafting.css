@@ -108,7 +108,7 @@ nav a {
     color: white;
     padding: 1.5rem;
     text-decoration: none;
-    font-size: 2;
+    font-size: 20px;
     font-weight: 700;
 }
 
@@ -230,7 +230,7 @@ footer {
     gap: 30px;
     align-items: stretch;
     justify-content: center;
-    padding: 20 px;
+    padding: 20px;
 }
 
 form {
