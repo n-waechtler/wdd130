@@ -345,7 +345,7 @@ figure {
     margin: 0 auto;
     padding: 1rem;
     border: 1px solid rgb(0 0 0 / 0.1);
-    border-radius: 0.5;
+    border-radius: 5px;
     background-color: rgb(245, 227, 204);
     display: grid;
     gap: 10px;
@@ -364,6 +364,18 @@ figure {
     height: 45px;
 }
 
+.button3 {
+    margin: .5rem;
+    background-color: navy;
+    color: white;
+    border: none;
+    border-radius: .5rem;
+    padding: .5rem;
+    font-size: 1.2rem;
+    width: 125px;
+    height: 45px;
+}
+
 button:hover {
     background-color: darkgreen;
 }
@@ -374,4 +386,38 @@ fieldset {
     margin: 1rem;
     border: 1px solid rgb(0 0 0 / 0.2);
     padding: 1rem;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(140 140 140);
+    letter-spacing: 1px;
+    background-color: white;
+}
+
+th,
+td {
+    border: 1px solid rgb(150 150 150);
+    padding: 8px 12px;
+    text-align: center;
+}
+
+thead tr,
+tfoot tr {
+    background-color: rgb(0 0 0);
+    color: white;
+    font-weight: 700;
+}
+
+.booking {
+    width: 300px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgb(0 0 0 / 0.1);
+    border-radius: 5px;
+    background-color: white;
+    display: grid;
+    gap: 10px;
+    justify-items: center;
+    text-align: center;
 }
